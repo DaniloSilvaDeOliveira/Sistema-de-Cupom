@@ -1,0 +1,113 @@
+body{
+    background-color: #0C3818;
+    margin:auto;
+    
+}
+body *{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form{
+    margin: 15% 25% -2% 25%;
+    padding: 5rem;
+    background-color: #438454;
+    border-radius: 1.5rem 1.5rem 0rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form h1{
+    color: #5CE081;
+    margin:0px;
+}
+.form input{
+    margin: 0.5rem;
+}
+
+.form input[type=text]{
+    padding:0.5rem;
+    background: fixed;
+    border:none;
+    color:#5CE081;
+    display: flex;
+    text-align: center;
+}
+.form input[type=text]::placeholder{
+    color:#5CE081;
+}
+.form input[type=submit]{
+    border-radius: 1rem;
+    border-style: none;
+    color: #5CE081;
+    padding:0.5rem;
+    background-color: #438454;
+}
+
+.form input[type=submit]:hover{
+    background-color: #5CE081;
+    color:#438454;
+}
+
+.msg{
+    color:#5CE081;
+    margin: 0% 25% 0% 25%;
+    padding: 1rem;
+    background-color: #438454;
+    border-radius: 0rem 0rem 1.5rem 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.msg-button input[type=submit]{
+    border-radius: 1rem;
+    border-style: none;
+    color: #5CE081;
+    margin-left: 15%;
+    background-color: #438454;
+}
+
+.msg-button input[type=submit]:hover{
+    background-color: #5CE081;
+    color:#438454;
+}
+
+.msg-estado-ativado{
+    margin-left: 10px;
+    border-radius: 1rem;
+    border-style: none;
+    padding: 0.2rem;
+    color: #438454;
+    background-color: #5CE081;
+}
+
+.cadastrar-button a:link{
+    margin: 1%;
+    padding:0.3rem;
+    display: inline-block;
+    border-radius: 1rem;
+    border-style: none;
+    text-decoration: none;
+    color: #5CE081;
+    background-color: #0C3818;
+}
+
+.cadastrar-button a:visited{
+    margin: 1%;
+    padding:0.3rem;
+    display: inline-block;
+    border-radius: 1rem;
+    border-style: none;
+    text-decoration: none;
+    color: #5CE081;
+    background-color: #0C3818;
+}
+
+.cadastrar-button a:hover{
+    margin: 1%;
+    padding:0.3rem;
+    display: inline-block;
+    border-radius: 1rem;
+    border-style: none;
+    text-decoration: none;
+    color: #0C3818;
+    background-color: #5CE081;
+}
