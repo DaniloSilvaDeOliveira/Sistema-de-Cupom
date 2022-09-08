@@ -111,3 +111,45 @@ body *{
     color: #0C3818;
     background-color: #5CE081;
 }
+
+.form-cadastro{
+    margin: 15% 25% -2% 25%;
+    padding: 5rem;
+    background-color: #438454;
+    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+    display: block;
+    justify-content: center;
+}
+
+.form-cadastro h1{
+    color: #5CE081;
+    margin:0px;
+}
+.form-cadastro input{
+    margin: 0.5rem;
+}
+
+.form-cadastro input[type=text]{
+    border: none;
+    border-bottom: 2px solid #0C3818;
+    padding:0.5rem;
+    background: fixed;
+    color:#5CE081;
+    display: flex;
+    text-align: center;
+}
+.form-cadastro input[type=text]::placeholder{
+    color:#5CE081;
+}
+.form-cadastro input[type=submit]{
+    border-radius: 1rem;
+    border-style: none;
+    color: #5CE081;
+    padding:0.5rem;
+    background-color: #438454;
+}
+
+.form-cadastro input[type=submit]:hover{
+    background-color: #5CE081;
+    color:#438454;
+}
